@@ -7,5 +7,6 @@ players = [
 ]
 
 best_player = max(players, key=lambda p: p["kills"])
+worst_player = min(players, key=lambda p: p["kills"])
 
-print(f"Best player: {best_player['name']} ({best_player['kills']} kills)")
+print(f"Best player: {best_player['name']} ({best_player['kills']} kills) and Worst player: {worst_player['name']} ({worst_player['kills']} kills)")
