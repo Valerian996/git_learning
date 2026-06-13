@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Player1",
+        "kills": 20
+    },
+    {
+        "name": "Player2",
+        "kills": 15
+    },
+    {
+        "name": "Player3",
+        "kills": 30
+    }
+]
